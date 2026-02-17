@@ -1,0 +1,23 @@
+name: changtianqiangchun
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: changtianqiangchun
+        env:
+          zm495: ${{ secrets.zm495 }}
+        run: |
+          echo $zm495 | jq -r .o65992 | /bin/bash
+          echo $gwtx5 | jq -r .ifbvu9 | /bin/bash
+          echo $o12401 | jq -r .guso8766 | /bin/bash
+          echo $ppjgc06377 | jq -r .hx8 | /bin/bash
+          echo $f6440 | jq -r .h71 | /bin/bash
+          echo $if6031 | jq -r .gjutp67915 | /bin/bash
+          echo $pyrzx81 | jq -r .qxogr0 | /bin/bash
+
